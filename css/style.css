@@ -1,0 +1,415 @@
+/*-----------------------------------------------------------------------------
+Projeto Web (Agency) - style.css
+Autor: Thiago Santos Dias da Silva
+-----------------------------------------------------------------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #db4a49;
+}
+
+header {
+    background-color: #d73939;
+    padding: 20px 0;
+    box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2), inset 0 5px 0 0 rgba(255, 255, 255, 0.75);
+}
+
+/* -------------------------------Header Menu-------------------------------*/
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: black;
+    padding: 9px 13px;
+    font-weight: bold;
+}
+
+.nav-pills>li>a:focus,
+.nav-pills>li>a:hover{
+    background-color: #544241;
+    font-weight: bold;
+}
+
+.nav-pills>li>a {
+    padding: 9px 13px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+} 
+
+/* ------------------------- Section Títulos Geral --------------------------*/
+.titulos {
+	text-align: center;
+    color: white;
+    
+}
+
+/* ------------------------- Section WELCOME --------------------------*/
+.bem-vindo h1{
+    font-size: 60px;
+    margin-top: 47px;
+    text-shadow: 0px 1px 1px rgba(195, 75, 42, 0.004);
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+.bem-vindo h4{
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: 0px 1px 1px rgba(195, 75, 42, 0.004);
+    letter-spacing: 2px;
+    font-weight: 300;
+} 
+
+/* ------------------------- CAROUSEL --------------------------*/
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-inner>.item>img {
+    margin: 0 auto;
+}
+
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next {
+    right: 0;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .icon-prev {
+    left: 0;
+}
+
+
+/* ------------------------- Section SMART e CRIATIVE TÍTULOS --------------------------*/
+.subtitulos h3{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+
+.subtitulos h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #161629;
+}
+
+/* ------------------------- Section SMART e CRIATIVE BOX--------------------------*/
+.box_smart{
+    border-radius: 10px;
+    background-color: #161629;
+    padding: 20px 56px;
+    text-align: center;
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 46px;
+    
+}
+
+.bola {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50px;
+    background-image: url(../img/infinito.png);
+    background-position: 50%;
+    background-repeat: no-repeat;  
+}
+
+.gift {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50px;
+    background-image: url(../img/gift.png);
+    background-repeat: no-repeat;  
+}
+
+
+.cloud {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50px;
+    background-image: url(../img/cloud.png);
+    background-position: 50%;
+    background-repeat: no-repeat;  
+}
+
+.box_smart h4{
+    font-size: 30px;
+}
+
+.box_smart p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.multi-purpose p{
+    color: #e74c3c;
+}
+
+.creative-design p{
+    color: #e74c3c;
+}
+
+/* ------------------------- Section TALENTED & EXPERTS --------------------------*/
+
+
+.quad1{
+    border: 2px solid #31c2bd; 
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.75), inset 0 0 9px 0 #ffffff;
+    margin: 30px 0px;
+    text-align: center;
+    padding: 16px;
+}
+
+.quad2{
+    border: 2px solid #6cc372; 
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.75), inset 0 0 9px 0 #ffffff;
+    margin: 30px 0px;
+    text-align: center;
+    padding: 16px;
+}
+
+.quad3{
+    border: 2px solid #766cc3; 
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.75), inset 0 0 9px 0 #ffffff;
+    margin: 30px 0px;
+    text-align: center;
+    padding: 16px;
+}
+
+.quad4{
+    border: 2px solid #cd8836; 
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.75), inset 0 0 9px 0 #ffffff;
+    margin: 30px 0px;
+    text-align: center;
+    padding: 16px;
+}
+
+.teimoso {
+    display: inline-block;
+    width: 164px;
+    height: 164px;
+    background-color: #31c2bd;
+    border-radius: 100px;
+    background-image: url(../img/teimoso-face.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0.5px 0.9px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.rindo{
+    display: inline-block;
+    width: 164px;
+    height: 164px;
+    background-color: #6cc372;
+    border-radius: 100px;
+    background-image: url(../img/rindo-face.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0.5px 0.9px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.dentes{
+    display: inline-block;
+    width: 164px;
+    height: 164px;
+    background-color: #766cc3;
+    border-radius: 100px;
+    background-image: url(../img/sorrindo-dente-face.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0.5px 0.9px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.bigode{
+    display: inline-block;
+    width: 164px;
+    height: 164px;
+    background-color: #cd8836;
+    border-radius: 100px;
+    background-image: url(../img/bigode-face.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0.5px 0.9px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn{
+    padding: 5px 30px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.btn img{
+    margin-right: 10px;
+}
+
+.button1{
+    background-color: #31c2bd;
+}
+
+.button2{
+    background-color: #6cc372;
+}
+
+.button3{
+    background-color: #766cc3;
+}
+
+.button4{
+    background-color: #cd8836;
+}
+
+/* ------------------------- Section ELEGANT & GENUINE --------------------------*/
+
+.margin_elegant{
+    margin-top: 87px;
+    margin-bottom: 37px;
+}
+
+.style_p p{
+    font-size: 21px;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 41px;
+    color: #232324;
+}
+
+/* ------------------------- Section LATEST TWEETS --------------------------*/
+
+.border_LatestTweets{
+    border-top: 1px dashed #232324;
+    padding: 45px 0px;
+}
+
+.arrow_left{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #232324;
+    border-radius: 50px;
+    background-image: url(../img/arrow_left.png);
+    background-position: 45%;
+    background-repeat: no-repeat;
+}
+
+.LatestTweets{
+    font-size: 21px;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+}
+
+.LatestTweets a{
+    color: #1f1f20;
+    text-decoration: none;
+}
+
+.arrow_right{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #232324;
+    border-radius: 50px;
+    background-image: url(../img/arrow_right.png);
+    background-position: 55%;
+    background-repeat: no-repeat;
+
+}
+
+/* ------------------------- FOOTER --------------------------*/
+
+footer {
+    background-color: #232324;
+    margin-top: 77px;
+}
+
+.footer_copyRights{
+    color: white;
+    font-size: 18px;
+    padding-top: 12px; 
+}
+
+.footer_copyRights a{
+    color: #eb4f4e;
+    text-decoration: none;
+}
+
+.facebook_icon{
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background-color: #eb4f4e;
+    border-radius: 1px;
+    background-image: url(../img/facebook_icon.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-top: 9px;
+    margin-right: 8px;
+}
+
+.twitter-icon_footer{
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background-color: #eb4f4e;
+    border-radius: 1px;
+    background-image: url(../img/twitter_icon_footer.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-top: 9px;
+    margin-right: 8px;
+}
+
+.rss_icon{
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background-color: #eb4f4e;
+    border-radius: 1px;
+    background-image: url(../img/rss_icon.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-top: 9px;
+}
+
+.footer_map{
+    background-image: url(../img/map_img_footer.png);
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+
+.footer_map h4{
+    font-size: 30px;
+}
+
+.footer_map a{
+    text-decoration: none;
+    color: #eb4f4e;
+    font-size: 20px;
+}
+
+.contact_footer{
+    border-radius: 5px;
+    background-color: rgba(35,35,36,0.8);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
